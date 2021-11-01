@@ -1,4 +1,5 @@
 // Using arbitary JSON / map[string]interface in grpc
+// ref: https://stackoverflow.com/a/65026774/11983973
 package main
 
 import (
