@@ -1,8 +1,11 @@
 syntax = "proto3";
 
+option go_package = "./;stub";
+
 import "google/protobuf/struct.proto";
 
 message Response {
   string message = 1;
   google.protobuf.Struct data = 2;
+  repeated google.protobuf.Struct detail = 3;
 }
